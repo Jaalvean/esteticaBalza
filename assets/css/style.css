@@ -57,6 +57,9 @@ body {
 .navigationBar .navBar .navItem {
     padding: 1rem;
 }
+.navItem:hover {
+    transform: scale(1.2);
+}
 .navigationBar .navBar .navItem:last-child {
     margin-right: 0;
     padding-right: 0;
@@ -65,7 +68,7 @@ body {
     color: rgb(223, 0, 123);
     opacity: 10;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-family: 'Lemonada', cursive;
 }
 .navigationBar .navBar .navLink:hover {
     opacity: 1;
@@ -116,6 +119,14 @@ height: 100px;
     height: 3rem;
     margin: 0 1rem;
 }
+
+.redesFooter {
+    transition: transform 2s;
+}
+.redesFooter:hover {
+    transform: rotate(360deg);
+}
+
 .footerNav .footerItem:hover {
     opacity: 1;
 }
@@ -176,6 +187,11 @@ main {
     width: 50%;
     font-style: italic;
     text-align: justify;
+
+}
+.mainDescription:hover {
+    /* box-shadow: -30px 30px pink; */
+    transform: scale(1.1);
 }
 
 .indexTitles{
@@ -185,6 +201,14 @@ main {
     font-weight: bolder;
     font-size: larger;
     font-style: italic;
+}
+.indexTitles:hover{
+    transform: scale(1.5);
+    margin-bottom: 1rem;
+}
+
+.mainContent:hover{
+    transform: scale(1.2);
 }
 /* Fin de Contenido del Index */
 
